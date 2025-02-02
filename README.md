@@ -1,7 +1,7 @@
-# Student Management System
+# Department Management System
 
 ## Overview
-This is a command-line-based **Student Management System** written in Python. It allows users to manage students, courses, batches, departments, and examinations with various operations such as creation, modification, performance tracking, and visualization.
+This is a command-line-based **Department Management System** written in Python. It allows users to manage students, courses, batches, departments, and examinations with various operations such as creation, modification, performance tracking, and visualization.
 
 ## Features
 - **Student Management**: Add, update, remove students and generate report cards.
@@ -14,12 +14,12 @@ This is a command-line-based **Student Management System** written in Python. It
 ### Prerequisites
 Ensure you have the following installed:
 - Python 3.x
-- Required dependencies (Install using `pip install -r requirements.txt` if applicable)
+- Required dependencies
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/your-repo/student-management-system.git
-cd student-management-system
+git clone https:https://github.com/JISHUBISHI/Department-Management-System.git
+cd Department-Management-System
 ```
 
 ## Usage
@@ -51,13 +51,5 @@ Press 5 to do examination operations
 Press 0 to stop
 Enter your choice: 1
 ```
-
-## Contributing
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a Pull Request
-
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.

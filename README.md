@@ -1,89 +1,63 @@
-# 🚀 Department Management System
+# Student Management System
 
-## 📌 Overview
-The **Department Management System** is a Python-based application designed to efficiently manage departments within an organization. It allows users to handle department details, assign employees, allocate budgets, and track tasks and performance.
+## Overview
+This is a command-line-based **Student Management System** written in Python. It allows users to manage students, courses, batches, departments, and examinations with various operations such as creation, modification, performance tracking, and visualization.
 
-## 🎯 Features
-### ✅ Department Management
-- Add, update, delete, and view department details.
-- Assign department heads and allocate resources.
+## Features
+- **Student Management**: Add, update, remove students and generate report cards.
+- **Course Management**: Create courses, view student performance, and display course statistics.
+- **Batch Management**: Manage student batches, courses in batches, and performance metrics.
+- **Department Management**: Organize batches under departments, track performance, and visualize department statistics.
+- **Examination Management**: Enter marks, view exam performance, and generate scatter plots for analysis.
 
-### ✅ Employee Management
-- Add employees to departments.
-- Assign roles and responsibilities.
-- Track employee performance.
+## Installation
+### Prerequisites
+Ensure you have the following installed:
+- Python 3.x
+- Required dependencies (Install using `pip install -r requirements.txt` if applicable)
 
-### ✅ Task & Project Management
-- Assign tasks and projects to departments.
-- Set deadlines and monitor progress.
-
-### ✅ Budget & Finance Tracking
-- Allocate budgets to departments.
-- Monitor expenses and generate financial reports.
-
-### ✅ Reports & Analytics
-- Generate reports on department efficiency, employee performance, and budget utilization.
-
-### ✅ User Authentication & Roles
-- Secure login system with authentication.
-- Role-based access (Admin, Manager, Employee).
-
-## 🛠️ Technologies Used
-- **Backend:** Python (Flask/Django)
-- **Database:** SQLite / MySQL
-- **Frontend:** HTML, CSS, JavaScript (for web UI)
-- **Libraries:** Pandas (data handling), Matplotlib (reporting), Tkinter (for GUI)
-
-## 📂 Project Structure
-```
-Department-Management-System/
-│-- app/
-│   │-- models.py    # Database models
-│   │-- routes.py    # Application routes
-│   │-- forms.py     # Form handling
-│-- static/         # CSS, JS, Images
-│-- templates/      # HTML Templates
-│-- main.py         # Main Application
-│-- config.py       # Configurations
-│-- requirements.txt # Dependencies
-│-- README.md       # Project Documentation
-```
-
-## 🚀 Installation & Setup
-1. **Clone the Repository:**
+### Clone the Repository
 ```sh
-git clone https://github.com/your-username/department-management.git
-cd department-management
+git clone https://github.com/your-repo/student-management-system.git
+cd student-management-system
 ```
 
-2. **Create a Virtual Environment:**
-```sh
-python -m env venv
-source env/bin/activate  # On Windows use: venv\Scripts\activate
-```
-
-3. **Install Dependencies:**
-```sh
-pip install -r requirements.txt
-```
-
-4. **Run the Application:**
+## Usage
+Run the main script to start the program:
 ```sh
 python main.py
 ```
 
-5. **Access in Browser:**
+### Menu Navigation
+- The system provides a menu-driven interface where users can select operations.
+- Input the corresponding number to choose an action.
+- Enter `0` to return to the main menu or exit the program.
+
+## Modules Overview
+- `main.py` - The entry point of the application, handling user interactions.
+- `student.py` - Contains functions for student-related operations.
+- `course.py` - Manages course creation, student performance tracking, and statistics.
+- `batch.py` - Handles batch operations including students, courses, and performance analytics.
+- `department.py` - Manages departments and batch statistics visualization.
+- `examination.py` - Handles exam marks entry, student performance, and statistical analysis.
+
+## Example
 ```
-http://127.0.0.1:5000/
+Press 1 to do student operations
+Press 2 to do course operations
+Press 3 to do batch operations
+Press 4 to do department operations
+Press 5 to do examination operations
+Press 0 to stop
+Enter your choice: 1
 ```
 
-## 📜 License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
+## Contributing
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature-branch`)
+5. Open a Pull Request
 
-## 🤝 Contributing
-Feel free to contribute! Fork the repository and submit a pull request with your improvements. 
-
----
-
-🔹 **Author:** [Your Name](https://github.com/your-username)  
-🔹 **GitHub Repo:** [Department Management System](https://github.com/your-username/department-management)
+## License
+This project is licensed under the MIT License - see the `LICENSE` file for details.

@@ -51,5 +51,3 @@ Press 5 to do examination operations
 Press 0 to stop
 Enter your choice: 1
 ```
-## License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
